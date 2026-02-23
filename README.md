@@ -33,4 +33,4 @@ Dependencies:
 Notes:
 - The project is modular: data handling, preprocessing, training, and evaluation are separated.
 - Easy to extend with new models or datasets.
-"""
+"""# Titanic-Survival-Prediction
