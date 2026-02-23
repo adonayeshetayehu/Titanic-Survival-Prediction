@@ -30,7 +30,12 @@ Usage:
 Dependencies:
 - numpy, pandas, scikit-learn, matplotlib, seaborn, xgboost, lightgbm
 
-Notes:
-- The project is modular: data handling, preprocessing, training, and evaluation are separated.
-- Easy to extend with new models or datasets.
-"""# Titanic-Survival-Prediction
+### Notes
+- This project implements a **full machine learning pipeline**:
+  - Data loading and splitting
+  - Preprocessing (imputation, scaling, one-hot encoding)
+  - Model training and hyperparameter tuning
+  - Evaluation and comparison of multiple models
+- Includes 5 classifiers: Random Forest, Logistic Regression, SVC, XGBoost, LightGBM
+- Provides visualizations: confusion matrices, feature importances, and coefficient magnitudes
+- Modular structure for clarity and reusability
